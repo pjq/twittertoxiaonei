@@ -140,8 +140,8 @@ class sync:
         i=0
         for tweet in timeline:
             i=i+1
-            #if i==1:
-            #    break;
+            if i==1:
+                break;
             result = send_status(tweet, cookie_buf)
         return 'ok'
     

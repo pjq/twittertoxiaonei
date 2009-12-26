@@ -26,7 +26,11 @@ print '''
 
 
 <p> <br>
+The code <a href="http://www.sxnsx.com/sync-twitter-timeline-to-renren-status-by-google-app-engine/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+shellex-cn+%28ShelleX+is+Not+ShelleXtend%28CN%29%29"> Reference.</a>
+<br>
 I just use it to sync status from twitter to xiaonei</p><br>
+If you want to use this application,click the <a href="http://github.com/pjq/twittertoxiaonei/blob/master/README">README</a>.<br>
+
 You can download the source code from here:<a href="http://github.com/pjq/twittertoxiaonei">http://github.com/pjq/twittertoxiaonei</a><br> 
   
    Welcome to my <a href="http://www.impjq.net/blog">blog</a>

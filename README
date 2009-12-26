@@ -1,5 +1,7 @@
 This application is used to sync status from twitter to xiaonei running on Google App Engine.
 
+The Reference:http://www.sxnsx.com/sync-twitter-timeline-to-renren-status-by-google-app-engine/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+shellex-cn+%28ShelleX+is+Not+ShelleXtend%28CN%29%29
+
 1.You should change username/password in code.py:
 
 renren_usr = 'pengjianqing@gmail.com'
