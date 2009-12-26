@@ -26,7 +26,8 @@ print '''
 
 
 <p> <br>
-I just use it to sync status from twitter to xiaonei</p> 
+I just use it to sync status from twitter to xiaonei</p><br>
+You can download the source code from here:<a href="http://github.com/pjq/twittertoxiaonei">http://github.com/pjq/twittertoxiaonei</a><br> 
   
    Welcome to my <a href="http://www.impjq.net/blog">blog</a>
   <p>
