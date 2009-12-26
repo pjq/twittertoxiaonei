@@ -33,6 +33,10 @@ If you want to use this application,click the <a href="http://github.com/pjq/twi
 
 You can download the source code from here:<a href="http://github.com/pjq/twittertoxiaonei">http://github.com/pjq/twittertoxiaonei</a><br> 
   
+<br>
+I have wrotten a simple java application to add tweet in the terminal way,click here:<a href="http://github.com/pjq/AutoTweet">AutoTweet</a> for details.
+<br>
+  
    Welcome to my <a href="http://www.impjq.net/blog">blog</a>
   <p>
    <a href="http://twitter.com/pengjianqing">Follow me at http://twitter.com/pengjianqing</a>
