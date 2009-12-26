@@ -7,8 +7,44 @@ renren_passwd = '校内密码'
 twitter_usr = 'pengjianqing@gmail.com'
 twitter_passwd = 'twitter密码'
 
-2.You may need modify the home page content in hello.py.
+2.You may need  to modify the home page content in hello.py.
 
+3.You may need to modify the sync frequency in cron.yaml
+
+4.Now the code has a problem:it will update a status from twitter though it has been updated to xiaonei before.
+So you should edit the cody.py:
+
+class sync:
+    def GET(s):
+        global cookie_buf
+        #get timeline
+        print 'get timeline'
+        timeline = get_tweets(twitter_usr, twitter_passwd)
+        if len(timeline) == 0:
+            return 'no tweet to sync.'
+        
+        print 'print login2renren'
+        #login to renren
+        result = login2renren()
+        cookie_buf = Cookie.SimpleCookie(result.headers.get('set-cookie', ''));
+        callback_url = result.headers.get('location', 'xx');
+ 
+        result = do_redirect(callback_url, cookie_buf)
+ 
+        cookie_buf = Cookie.SimpleCookie(result.headers.get('set-cookie', ''))
+        i=0
+        for tweet in timeline:
+            i=i+1
+            if i==5:
+                break;
+            result = send_status(tweet, cookie_buf)
+        return 'ok'
+
+See here:
+if i==5:
+     break;
+When Firs run this application,it will update so many status from twitter,so you can change the limitation here.
+May be just 1 or more than 10.This depends on you.
 
 
 
