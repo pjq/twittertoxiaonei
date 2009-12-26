@@ -1,0 +1,12 @@
+This application is used to sync status from twitter to xiaonei running on Google App Engine.
+
+You should change username/password in code.py:
+
+renren_usr = 'pengjianqing@gmail.com'
+renren_passwd = '校内密码'
+twitter_usr = 'pengjianqing@gmail.com'
+twitter_passwd = 'twitter密码'
+
+
+
+

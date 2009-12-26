@@ -1,0 +1,4 @@
+cron:
+- description: every 60 minutes
+  url: /task/sync
+  schedule: every 60 minutes
