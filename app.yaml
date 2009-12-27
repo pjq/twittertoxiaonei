@@ -6,5 +6,11 @@ api_version: 1
 handlers:
 - url: /task/sync
   script: code.py
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /hello/hello/.*
+  script: helloworld.py
 - url: /.*
-  script: hello.py
+  script: hello.py  
+  
